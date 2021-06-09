@@ -1,99 +1,43 @@
-<input type="checkbox" id="cp_navimenuid">
-<label class="menu" for="cp_navimenuid">
-
-<div class="menubar">
-	<span class="bar"></span>
-	<span class="bar"></span>
-	<span class="bar"></span>
+<div class="cp_hmenuac06">
+	<span></span>
+	<span></span>
+	<span></span>
 </div>
-
-<ul>
-	<li><a id="home" href="/index.html">Home</a></li>
-	<li><a id="about" href="/about.html">About</a></li>
-	<li><a id="sandbox" href="/sandbox.html">Sandbox</a></li>
-  <li><a id="Theta" href="/thetamap/index.html">Theta</a></li>
-</ul>
-
-</label>
-<style type="text/css">
-<!--
-  *, *:before, *:after {
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
-}
-.menu {
-	display: block;
-	overflow: hidden;
-	width: 60px;
-	height: 60px;
-	margin: 30px auto;
+<style>
+.cp_hmenuac06 {
+	position: absolute;
+	padding: 1.5em;
+	width: 40px;
 	cursor: pointer;
-	-webkit-transition: all 0.5s ease-in-out;
-	        transition: all 0.5s ease-in-out;
-	border: 3px solid transparent;
-	border-radius: 50%;
-	background-color: #1b2538;
 }
-.menu div.menubar {
-	width: 30px;
-	margin: 17px auto;
-}
-.menu div.menubar .bar {
+.cp_hmenuac06 > span {
+	position: relative;
 	display: block;
-	width: 100%;
+	width: 40px;
 	height: 5px;
-	margin-top: 3px;
-	border-radius: 2px;
-	background-color: #ffffff;
-}
-.menu ul {
-	display: none;
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-	-webkit-transition: all 0.5s ease;
-	        transition: all 0.5s ease;
-	text-align: center;
-	opacity: 0;
-}
-.menu ul li {
-	display: inline-block;
-}
-.menu ul li a {
-	display: inline-block;
-	padding: 0.7em 0.5em;
-	-webkit-transition: all 0.3s ease-in;
-	        transition: all 0.3s ease-in;
-	text-decoration: none;
-	color: #1b2538;
-	border-bottom: 4px solid transparent;
-	height: 56px;
-	line-height: 2em;
-}
-.menu ul li a:hover {
-	color: #ffffff;
-	background-color: #1b2538;
-}
-.menu ul li a:target {
-	border-bottom-color: #1b2538;
-}
-/* クリックした時の動き */
-#cp_navimenuid {
-	display: none;
-}
-#cp_navimenuid:checked ~ .menu {
-	width: 100%;
-	height: 60px;
-	border: 3px solid #1b2538;
 	border-radius: 5px;
-	background-color: transparent;
+	margin-top: 5px;
+	background: #1470e9;
 }
-#cp_navimenuid:checked ~ .menu > ul {
-	display: block;
-	opacity: 1;
+.cp_hmenuac06 > span:after {
+	position: absolute;
+	width: 0%;
+	height: 100%;
+	content: '';
+	border-radius: 5px;
+	-webkit-transition: all 0.3s ease-in-out;
+	        transition: all 0.3s ease-in-out;
+	background: rgba(233,30,99 ,0.9);
 }
-#cp_navimenuid:checked ~ .menu > .menubar {
-	display: none;
+.cp_hmenuac06 > span:nth-child(2):after {
+	-webkit-transition-delay: 0.1s;
+	        transition-delay: 0.1s;
 }
--->
+.cp_hmenuac06 > span:nth-child(3):after {
+	-webkit-transition-delay: 0.2s;
+	        transition-delay: 0.2s;
+}
+.cp_hmenuac06:hover > span:after {
+	width: 100%;
+}
 </style>
