@@ -1,119 +1,99 @@
-<ul class="cp_sidebarmenu">
-<li><a href="/index.html"><i class="fa fa-home"></i><span>Home</span></a>
-</li>
+<input type="checkbox" id="cp_navimenuid">
+<label class="menu" for="cp_navimenuid">
 
-<li><a href="/sandbox/index.html"><i class="fa fa-file-text"></i><span>Sandbox</span></a>
-	<ul>
-		<li><a href="/sandbox/picture.html"><i class="fa fa-file-image-o"></i><span>Picture</span></a></li>
-	</ul>
-</li>
+<div class="menubar">
+	<span class="bar"></span>
+	<span class="bar"></span>
+	<span class="bar"></span>
+</div>
 
-	<li><a href="/about.html"><span>About</span></a>
-</li>
-
-<li><a href="/thetamap/index.html"><span>Theta</span></a>
-	<ul>
-		<li><a href="/thetamap/map.html"><span>Map</span></a></li>
-		<li><a href="/thetamap/story.html"><span>Story</span></a></li>
-		<li><a href="/thetamap/draw.html"><span>draw</span></a></li>
-	</ul>
-</li>
+<ul>
+	<li><a id="home" href="/index.html">Home</a></li>
+	<li><a id="about" href="/about.html">About</a></li>
+	<li><a id="sandbox" href="/sandbox.html">Sandbox</a></li>
+  <li><a id="Theta" href="/thetamap/index.html">Theta</a></li>
 </ul>
-<li><a href="/CVS/index.html">Convenience Store<span></span></a>
-<!--	<ul>
-		<li><a href="/CVS/.html"><span></span></a></li>
-		<li><a href="/CVS/.html"><span></span></a></li>
-		<li><a href="/CVS/.html"><span></span></a></li>
-	</ul>
-</li>
-</ul>-->
-<style>
-.cp_sidebarmenu {
-	font-size: 0;
-	position: absolute;
-	z-index: 10;
-	top: 0;
-	left: 0;
-	height: 100%;
-	padding: 0.4em 0;
+
+</label>
+<style type="text/css">
+<!--
+  *, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.menu {
+	display: block;
+	overflow: hidden;
+	width: 60px;
+	height: 60px;
+	margin: 30px auto;
+	cursor: pointer;
+	-webkit-transition: all 0.5s ease-in-out;
+	        transition: all 0.5s ease-in-out;
+	border: 3px solid transparent;
+	border-radius: 50%;
+	background-color: #1b2538;
+}
+.menu div.menubar {
+	width: 30px;
+	margin: 17px auto;
+}
+.menu div.menubar .bar {
+	display: block;
+	width: 100%;
+	height: 5px;
+	margin-top: 3px;
+	border-radius: 2px;
+	background-color: #ffffff;
+}
+.menu ul {
+	display: none;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	-webkit-transition: all 0.5s ease;
+	        transition: all 0.5s ease;
 	text-align: center;
-	color: white;
-	background: #37474f;
+	opacity: 0;
 }
-.cp_sidebarmenu li {
-	line-height: 100%;
-	position: relative;
+.menu ul li {
 	display: inline-block;
-	list-style: none;
-	-webkit-transform: translateZ(0);
-					transform: translateZ(0);
-	vertical-align: middle;
-	pointer-events: none;
 }
-.cp_sidebarmenu a {
-	font-size: 16px;
-	line-height: 100%;
-	position: relative;
-	display: block;
-	min-width: 5em;
-	margin-bottom: 0.4em;
-	padding: 0.4em;
-	-webkit-transition: background 0.3s;
-					transition: background 0.3s;
+.menu ul li a {
+	display: inline-block;
+	padding: 0.7em 0.5em;
+	-webkit-transition: all 0.3s ease-in;
+	        transition: all 0.3s ease-in;
 	text-decoration: none;
-	pointer-events: auto;
+	color: #1b2538;
+	border-bottom: 4px solid transparent;
+	height: 56px;
+	line-height: 2em;
+}
+.menu ul li a:hover {
 	color: #ffffff;
+	background-color: #1b2538;
 }
-.cp_sidebarmenu a:active,
-.cp_sidebarmenu a:focus {
-	background: #0097a7;
+.menu ul li a:target {
+	border-bottom-color: #1b2538;
 }
-.cp_sidebarmenu i {
-	font-size: 2em;
+/* クリックした時の動き */
+#cp_navimenuid {
+	display: none;
+}
+#cp_navimenuid:checked ~ .menu {
+	width: 100%;
+	height: 60px;
+	border: 3px solid #1b2538;
+	border-radius: 5px;
+	background-color: transparent;
+}
+#cp_navimenuid:checked ~ .menu > ul {
 	display: block;
-	margin-bottom: 0.2em;
-}
-.cp_sidebarmenu span {
-	font-size: 0.625em;
-}
-.cp_sidebarmenu li:hover ul {
-	-webkit-transform: translateX(0);
-					transform: translateX(0);
-	background: #0097a7;
-}
-.cp_sidebarmenu > li {
-	display: block;
-}
-.cp_sidebarmenu > li > a {
-	background: #37474f;
-}
-.cp_sidebarmenu > li:hover {
-	z-index: 100;
-}
-.cp_sidebarmenu > li:hover a {
-	background: #0097a7;
-}
-.cp_sidebarmenu > li a:hover {
-	background: #00acc1;
-}
-.cp_sidebarmenu > li:hover a:after {
 	opacity: 1;
 }
-.cp_sidebarmenu > li ul {
-	position: absolute;
-	z-index: -1;
-	top: 0;
-	left: 100%;
-	width: auto;
-	height: 100%;
-	-webkit-transition: 0.5s -webkit-transform;
-					transition: 0.5s -webkit-transform;
-					transition: 0.5s transform;
-					transition: 0.5s transform, 0.5s -webkit-transform;
-	-webkit-transform: translateX(-100%);
-					transform: translateX(-100%);
-	white-space: nowrap;
-	background: #0097a7;
-	padding: 0;
+#cp_navimenuid:checked ~ .menu > .menubar {
+	display: none;
 }
-</style>
+-->
+</styl
