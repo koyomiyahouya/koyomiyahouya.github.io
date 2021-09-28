@@ -1,44 +1,49 @@
 <title>空想世界・テータ</title>
-<head>
-<meta name="Content-Style-Type" content="text/css">
-<style>
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #1b2538;
-}
-li {
-	float: left;
-	border-right: 1px solid #bbbbbb;
-}
-li:last-child {
-	border-right: none;
-}
-li a {
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-}
-li a:hover:not(.active) {
-	background-color: #a9bce2;
-}
-.active {
-	background-color: #6367e0;
-}
-</style>
-</head>
-<ul>
-	<li><a class="active" href="/thetamap/index.html">ホーム</a></li>
-	<li><a href="/thetamap/map.html">地図の閲覧</a></li>
-	<li><a href="/thetamap/story.html">世界観や物語</a></li>
-	<li><a href="/thetamap/draw.html">地図の制作</a></li>
-	<li><a href="https://koyomi.f5.si/about.html">作者について</a></li>
-	<li><a href="https://koyomi.f5.si/about.html"></a></li>
-</ul>
-<link rel="icon" href="7A061703-BC1B-4D59-AB10-203B56176D4E.png" />
-<link rel="apple-touch-icon" sizes="180x180" href="7A061703-BC1B-4D59-AB10-203B56176D4E.png">
-<div style="text-align: center"><img src="thetaheader.JPG" title="空想世界・テータ" width="480" height="160"><br><span style="text-shadow:3px 3px 3px #d0d0d0"><span style="font-family: 'Lucida Handwriting', cursive;"><span style="font-size:300%"><span style="color:teal">空想地図</span><span style="color:navy">・</span><span style="color:darkgreen">テータ</div></span></span></span></span>
+
+1 / 108
+index.html
+受信トレイ
+
+おもてぐちりんたろう <h26c01036@city-kita.ed.jp>
+13:11 (0 分前)
+To 自分
+
+   
+翻訳されたメッセージを表示
+常に翻訳: 英語
+<!DOCTYPE html>
+<html lang="jp">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <meta http-equiv="Pragma" content="no-cache">
+        <meta http-equiv="Cache-Control" content="no-cache">
+        <meta http-equiv="Expires" content="0">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+    </head>
+    <body>
+        <nav id="nav-pc">
+            <div style="height: 10px;"></div>
+            <div class="nav-menu"></div>
+        </nav>
+        <main id="main">
+        </main>
+        <header>
+            <span id="list-open" onclick="slideout.toggle();list_hidden();">
+                ≡
+            </span>
+            <span id="selecting-contents-display" onclick="mobile_header_switch()">
+                選択
+            </span>
+            <nav id="nav-mobile"></nav>
+        </header>
+        <div id="list">
+            <input id="search_word" placeholder="ページ内検索" type="text" style="background-color:rgba(0,0,0,0);border-radius:5px;margin: 10px 10px 0px 10px;">
+            <ul id="contents-list">
+            </ul>
+        </div>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/1.0.1/slideout.min.js"></script>
+    <script src="./script.js"></script>
+</html>
