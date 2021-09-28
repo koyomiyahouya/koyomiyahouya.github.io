@@ -1,0 +1,16 @@
+[
+    {
+        "title":"操作方法",
+        "source":"./source/1",
+        "mode":"json"
+    },{
+        "title":"テスト(json)",
+        "source":"./source/2",
+        "mode":"json"
+    },{
+        "title":"テスト(html)",
+        "source":"./source/test",
+        "mode":"html"
+    }
+]
+
