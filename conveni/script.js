@@ -4,6 +4,7 @@
     作成者:表口
     discord:e331#4378
 */
+$("a[href^='http']:not([href*='" + location.hostname + "'])").attr('target', '_blank');
 $(function(){
  $("a[href^='http']:not([href*='" + location.hostname + "'])").attr('target', '_blank');
 })
