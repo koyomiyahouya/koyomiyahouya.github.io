@@ -11,6 +11,11 @@
     </head>
     <body>
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+        $(function(){
+            $("a[href^='http']:not([href*='" + location.hostname + "'])").attr('target', '_blank');
+        })
+        </script>
         <nav id="nav-pc">
             <div style="height: 10px;"></div>
             <div class="nav-menu"></div>
