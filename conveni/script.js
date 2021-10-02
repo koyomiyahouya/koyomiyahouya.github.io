@@ -4,7 +4,6 @@
     作成者:表口
     discord:e331#4378
 */
-$("a[href^='http']:not([href*='" + location.hostname + "'])").attr('target', '_blank');
 var slideout;
 function display_adjustment(){
     if(window.innerWidth>425){
