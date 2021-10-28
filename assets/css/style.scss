@@ -1,4 +1,82 @@
----
----
-
-@import "jekyll-theme-slate";
+:focus {
+  outline: none;
+}
+body {
+  overflow-wrap: break-word;
+  overflow-y: scroll;
+}
+code {
+  overflow-wrap: normal;
+  overflow: auto;
+}
+p img {
+  max-width: 100%;
+}
+@media screen and (max-width: 480px) {
+  #header_wrap > .inner {
+    padding-top: 70px;
+  }
+}
+#banner_wrap {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 10;
+}
+%banner {
+  display: inline-block;
+  padding: 10px 42px 10px 10px;
+  color: #fff;
+  background: no-repeat 95% 50% / auto 70%;
+  font-weight: 700;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 0 0 2px 2px;
+  @media screen and (max-width: 480px) {
+    padding: 9px 38px 9px 6px;
+    background: no-repeat 96% 50% / auto 68%;
+  }
+}
+#github_banner {
+  @extend %banner;
+  background-image: url(../images/GitHub.svg);
+  background-color: #8131a3;
+}
+#twitter_banner {
+  @extend %banner;
+  background-image: url(../images/Twitter.svg);
+  background-color: #1da1f2;
+}
+#toppage_link {
+  display: block;
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+}
+#toppage_link h1 {
+  font-size: 42px;
+  line-height: 48px;
+  padding: 16px 0 0 72px;
+  background: no-repeat url(../images/logo.svg) left/contain;
+}
+.navbar {
+  display: flex;
+  > .right {
+    margin-left: auto;
+  }
+}
+.slide {
+  position: relative;
+  &::before {
+    content: "";
+    display: block;
+    padding-top: 61%; // (640/16*9+30)/640
+  }
+  > iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
