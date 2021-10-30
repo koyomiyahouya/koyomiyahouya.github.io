@@ -1,3 +1,7 @@
+---
+---
+
+@import "{{ site.theme }}";
 :focus {
   outline: none;
 }
@@ -39,12 +43,17 @@ p img {
 #github_banner {
   @extend %banner;
   background-image: url(../images/GitHub.svg);
-  background-color: #8131a3;
+  background-color: #12982c;
 }
 #twitter_banner {
   @extend %banner;
   background-image: url(../images/Twitter.svg);
   background-color: #1da1f2;
+}
+#connpass_banner {
+  @extend %banner;
+  background-image: url(../images/connpass.svg);
+  background-color: #d11f00;
 }
 #toppage_link {
   display: block;
