@@ -2,7 +2,6 @@
             **JsonSite**
     バージョン:1ということにしておこうかな?
 */
-$("a[href^='http']:not([href*='" + location.hostname + "'])").attr('target', '_blank');
 var slideout;
 function display_adjustment(){
     if(window.innerWidth>425){
