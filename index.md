@@ -3,7 +3,7 @@ layout: default
 title: Koyomiya5438 Homepage
 ---
 # サブページ
-* [マイナーコンビニの店舗一覧](/conveni/index.html)
+* [マイナーコンビニの店舗一覧](/conv/index.html)
 
 # 外部リンク
 ## Wiki
