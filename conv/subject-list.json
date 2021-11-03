@@ -7,5 +7,9 @@
         "title":"サンボランタリー",
         "source":"./source/2",
         "mode":"json"
+    },{
+        "title":"テスト(html)",
+        "source":"./source/test",
+        "mode":"html"
     }
 ]
