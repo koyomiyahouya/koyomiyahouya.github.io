@@ -1,6 +1,8 @@
 /*
             **JsonSite**
     バージョン:1ということにしておこうかな?
+    作成者:表口
+    discord:e331#4378
 */
 var slideout;
 function display_adjustment(){
