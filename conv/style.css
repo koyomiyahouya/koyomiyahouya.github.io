@@ -21,6 +21,7 @@ iframe{
 }
 #nav-pc{
     position: fixed;
+    padding-top: 10px;
     top: 0px;
     left: 0px;
     width: 200px;
@@ -40,6 +41,13 @@ section{
 section>h1{
     border-bottom: solid black 2px;
 }
+.nav-menu-button{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    display: inline-block;
+}
 #nav-mobile{
     display: none;
 }
@@ -53,9 +61,7 @@ section>h1{
     list-style: disc;
 }
 .nav-menu{
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
+    padding: 5px;
 }
 @keyframes SlideIn {
     0% {
@@ -145,6 +151,12 @@ section>h1{
         border: solid gainsboro 1px;
         color: gainsboro;
     }
+    #list-open{
+        color: black;
+    }
+    #list-open-invalid{
+        color: gainsboro;
+    }
     
 }
 @media screen and (min-width:425px) {/*900px以上のとき(pc)*/
@@ -182,6 +194,7 @@ section>h1{
         height: 100%;
         margin: 0px;
         padding: 30px;
+        background-color: rgba(0,0,0,0.0);
         background-color: gainsboro;
     }
     #search_word::placeholder{
