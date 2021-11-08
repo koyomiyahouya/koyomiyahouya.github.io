@@ -2,16 +2,11 @@
 <html lang="jp">
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="./light-theme.css">
-        <meta http-equiv="Pragma" content="no-cache">
-        <meta http-equiv="Cache-Control" content="no-cache">
-        <meta http-equiv="Expires" content="0">
+        <link rel="stylesheet" type="text/css" id="css">
         <meta name="viewport" content="width=device-width,initial-scale=1">
     </head>
     <body>
         <nav id="nav-pc">
-            <div style="height: 10px;"></div>
-            <div class="nav-menu"></div>
         </nav>
         <main id="main">
         </main>
@@ -22,7 +17,8 @@
             <span id="selecting-contents-display" onclick="mobile_header_switch()">
                 選択
             </span>
-            <nav id="nav-mobile"></nav>
+            <nav id="nav-mobile">
+            </nav>
         </header>
         <div id="list">
             <input id="search_word" placeholder="ページ内検索" type="text" style="background-color:rgba(0,0,0,0);border-radius:5px;margin: 10px 10px 0px 10px;">
@@ -33,4 +29,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.6/marked.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/1.0.1/slideout.min.js"></script>
     <script src="./script.js"></script>
+    <!--<script src="https://www.line-website.com/social-plugins/js/thirdparty/loader.min.js" async="async" defer="defer"></script>-->
 </html>
