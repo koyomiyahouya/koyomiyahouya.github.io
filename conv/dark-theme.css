@@ -1,0 +1,257 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+html{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #333333;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.highlight{
+    background-color:yellow;
+}
+.hide{
+    display: none;
+}
+iframe{
+    width: 500px;
+    height: 500px;
+}
+#nav-pc{
+    position: fixed;
+    padding-top: 10px;
+    top: 0px;
+    left: 0px;
+    width: 200px;
+    height: 100%;
+    margin: 0px;
+    background-color: dimgray;
+}
+section{
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 5px 10px;
+    box-shadow: 2px 2px 4px black;
+    border-radius:5px;
+    width: 100%;
+    animation: SlideIn 0.5s;
+}
+section>h1{
+    border-bottom: solid white 2px;
+}
+.nav-menu-button{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    display: inline-block;
+}
+#nav-mobile{
+    display: none;
+}
+#selecting-json-display{
+    cursor : pointer;
+}
+#contents-list{
+    padding: 0px;
+    padding-left: 30px;
+    margin: 0px;
+    list-style: disc;
+}
+.nav-menu{
+    padding: 5px;
+}
+@keyframes SlideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+@media screen and (max-width: 425px) {/*900px以下のとき(スマホ)*/
+
+    #nav-pc{
+        display: none;
+    }
+    main{
+        background-color: #333333;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        padding: 0px;
+        width: 100%;
+        margin: 50px 0px 0px;
+    }
+    header{
+        background-color: black;
+        color: white;
+        padding: 5px 10px;
+        box-shadow: 0px 2px 4px black;
+        width: 100%;
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        z-index: 3;
+        height: 30px;
+    }
+    #search_word::placeholder{
+        color:darkgray;
+    }
+    #contents-menu{
+        position: fixed;
+        right: 0px;
+        top:0px;
+        background-color:rgba(0,0,0,0.8);
+        color: gainsboro;
+        width: 300px;
+        height: 100%;
+        display:block;
+        text-decoration: none;
+    }
+    .select-button{
+        background-color: black;
+        color: white;
+        height: 40px;
+        line-height:40px;
+        font-size: 20px;
+        width: 100%;
+        padding: 0px 0px 0px 10px;
+        display:block;
+        text-decoration: none;
+        cursor : pointer;
+    }
+    .selecting{
+        background-color: white;
+        color: black;
+        border-radius:5px 5px 5px 5px;
+        height: 40px;
+        line-height:40px;
+        font-size: 20px;
+        width: 90%;
+        padding: 0px 0px 0px 10px;
+        display:block;
+        text-decoration: none;
+        cursor : pointer;
+    }
+    #list{
+        padding-top: 40px;
+        width: 256px;
+        height: 100%;
+        background-color: rgba(0,0,0,0.8);
+        color: whitesmoke;
+    }
+    #search_word::placeholder{
+        color:darkgray;
+    }
+    #search_word{
+        border: solid gainsboro 1px;
+        color: gainsboro;
+    }
+    #list-open{
+        color: white;
+    }
+    #list-open-invalid{
+        color: dimgray;
+    }
+    
+}
+@media screen and (min-width:425px) {/*900px以上のとき(pc)*/
+    .select-button{
+        background-color: dimgray;
+        color: white;
+        height: 40px;
+        line-height:40px;
+        font-size: 20px;
+        width: 90%;
+        padding: 0px 0px 0px 10px;
+        display:block;
+        text-decoration: none;
+        cursor : pointer;
+    }
+    .selecting{
+        background-color: white;
+        color: #333333;
+        box-shadow: -2px 2px 4px inset;
+        border-radius:0px 5px 5px 0px;
+        height: 40px;
+        line-height:40px;
+        font-size: 20px;
+        width: 90%;
+        padding: 0px 0px 0px 10px;
+        display:block;
+        text-decoration: none;
+        cursor : pointer;
+    }
+    #list{
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        width: 240px;
+        height: 100%;
+        margin: 0px;
+        padding: 30px;
+        background-color: #333333;
+        color: white;
+    }
+    #search_word::placeholder{
+        color:dimgray;
+    }
+    #search_word{
+        border: solid #333333 1px;
+        color: #333333;
+    }
+    main{
+        background-color: #333333;
+        position: absolute;
+        top: 0px;
+        left: 200px;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    
+}
+
+.slideout-menu {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 256px;
+    min-height: 100vh;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    z-index: 0;
+    display: none;
+  }
+  
+  .slideout-menu-left {
+    left: 0;
+  }
+  
+  .slideout-menu-right {
+    right: 0;
+  }
+  
+  .slideout-panel {
+    position: relative;
+    z-index: 1;
+    will-change: transform;
+    background-color: #333333; /* A background-color is required */
+    min-height: 100vh;
+  }
+  
+  .slideout-open,
+  .slideout-open body,
+  .slideout-open .slideout-panel {
+    overflow: hidden;
+  }
+  
+  .slideout-open .slideout-menu {
+    display: block;
+  }
