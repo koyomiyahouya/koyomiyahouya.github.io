@@ -2,11 +2,11 @@
     {
         "default":true,
         "title":"操作方法",
-        "source":"./source/1",
+        "source":"./source/top",
         "mode":"json"
     },{
         "title":"サンボランタリー",
-        "source":"./source/2",
+        "source":"./source/sunvoluntary",
         "mode":"json"
     },{
         "display":"menu",
