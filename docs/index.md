@@ -3,7 +3,7 @@ layout: default
 title: Koyomiya Docs
 ---
 
-# Koyomiya DOcs
+# Koyomiya Docs
 ## 作成物
 
 <ul>
@@ -19,8 +19,7 @@ title: Koyomiya Docs
 <ul>
   {% for post in site.posts limit:10 %}
     <li>
-      {{ post.date | date: "%Y-%m-%d" }} <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </li>
+      {{ post.date | date: "%Y-%m-%d" }} <a href="{{ post.url | relative_url }}">{{ post.title }}</a>    </li>
   {% endfor %}
 </ul>
 [もっとみる](allposts)
@@ -34,9 +33,3 @@ title: Koyomiya Docs
     {% endif %}
   {% endfor %}
 </div>
-
-## お問い合わせ
-
-見学の希望やご質問等は [Twitter](https://twitter.com/prog_g) の DM または下記メールアドレスまでお願いします。
-
-<img src="{{ '/assets/images/Email.svg' | relative_url }}" height="16px">
