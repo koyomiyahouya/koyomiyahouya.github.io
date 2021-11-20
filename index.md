@@ -12,8 +12,8 @@ title: Koyomiya5438 Homepage
 * [Miraheze](https://meta.miraheze.org/wiki/User:Koyomiya5438)
 * [Enpedia](https://enpedia.rxy.jp/wiki/利用者:コヨミヤ)
 
-## SNS
+## SNS等
 * [Twiter](https://twitter.com/koyomiyahouya)
-
+* [note](https://note.com/koyomiym)
 ## その他
 * [Pastebin.com](https://pastebin.com/u/Koyomiya)
