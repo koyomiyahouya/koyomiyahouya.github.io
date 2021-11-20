@@ -4,6 +4,7 @@ title: Koyomiya5438 Homepage
 ---
 # サブページ
 * [マイナーコンビニの店舗一覧](/conveni)
+* [Koyomiya Docs](/docs)
 
 # 外部リンク
 ## Wiki
