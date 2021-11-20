@@ -14,6 +14,6 @@ title: Koyomiya5438 Homepage
 
 ## SNS等
 * [Twiter](https://twitter.com/koyomiyahouya)
-* [note](https://note.com/koyomiym)
+* [note](https://note.com/koyomiya)
 ## その他
 * [Pastebin.com](https://pastebin.com/u/Koyomiya)
