@@ -1,1 +1,6 @@
+timezone: Japan
+gems:
+  - jekyll-sitemap
 theme: jekyll-theme-slate
+title: Koyomiya5438 Homepage
+lang: ja
