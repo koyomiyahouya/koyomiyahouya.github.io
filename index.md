@@ -18,5 +18,5 @@ title: Koyomiya5438 Homepage
 * [Qiita](https://qiita.com/Koyomiya)
 
 ## その他
-* [drip](https://drip.ink/users/koyomiya)
+* [drip.ink](https://drip.ink/users/koyomiya)
 * [Pastebin.com](https://pastebin.com/u/Koyomiya)
