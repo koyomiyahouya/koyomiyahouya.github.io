@@ -18,5 +18,8 @@ title: Koyomiya5438 Homepage
 * [Qiita](https://qiita.com/Koyomiya)
 
 ## その他
+* [進捗ノート](https://shinchoku.net/users/koyomiyahouya)
 * [drip.ink](https://drip.ink/users/koyomiya)
 * [Pastebin.com](https://pastebin.com/u/Koyomiya)
+* [空想鉄道](https://railway.chi-zu.net/159817.html)
+* [空想路線図](https://chart.chi-zu.net/9157.html)
