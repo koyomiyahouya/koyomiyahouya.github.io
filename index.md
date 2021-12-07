@@ -16,6 +16,7 @@ title: Koyomiya5438 Homepage
 * [Twiter](https://twitter.com/koyomiyahouya)
 * [note](https://note.com/koyomiya)
 * [Qiita](https://qiita.com/Koyomiya)
+* [Zenn](htpps://zen.dev/koyomiya)
 
 ## その他
 * [進捗ノート](https://shinchoku.net/users/koyomiyahouya)
