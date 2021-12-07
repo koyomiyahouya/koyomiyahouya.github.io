@@ -1,7 +1,7 @@
 [
     {
         "default":true,
-        "title":"操作方法",
+        "title":"サイトについて",
         "source":"./source/top",
         "mode":"json"
     },{
