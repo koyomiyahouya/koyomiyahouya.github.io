@@ -17,6 +17,7 @@ title: Koyomiya5438 Homepage
 * [note](https://note.com/koyomiya)
 * [Qiita](https://qiita.com/Koyomiya)
 * [Zenn](https://zenn.dev/koyomiya)
+* [Mastodon](https://fedibird.com/@koyomiya)
 * [Reddit](https://www.reddit.com/user/koyomiya)
 
 ## その他
