@@ -18,6 +18,8 @@ title: Koyomiya5438 Homepage
 * [Zenn](https://zenn.dev/koyomiya)
 * [Mastodon](https://fedibird.com/@koyomiya)
 * [Reddit](https://www.reddit.com/user/koyomiya)
+* [YouTube](https://www.youtube.com/channel/UCq_Wv2FeigV5ak0T97pyyxA)
+* [Fedimovie](https://fedimovie.com/a/koyomiya/video-channels)
 
 ## その他
 * [進捗ノート](https://shinchoku.net/users/koyomiyahouya)
