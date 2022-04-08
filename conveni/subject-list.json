@@ -9,6 +9,10 @@
         "source":"./source/sunvoluntary",
         "mode":"json"
     },{
+        "title":"マイショップ",
+        "source":"./source/myshop",
+        "mode":"json"
+    },{
         "display":"menu",
         "contents":["theme","twitter","hatenabookmark","pocket"]
     }
