@@ -27,4 +27,4 @@ title: Koyomiya5438 Homepage
 * [デライト](https://dlt.kitetu.com/KNo.9-547E)
 * [Pastebin.com](https://pastebin.com/u/Koyomiya)
 * [空想鉄道](https://ku-tetsu.net/159817.html)
-* [空想路線図](https://chart.chi-zu.net/9157.html)
+* [空想路線図](https://chart.chi-zu.net/15504.html)
