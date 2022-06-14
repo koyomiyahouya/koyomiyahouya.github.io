@@ -13,6 +13,10 @@
         "source":"./source/myshop",
         "mode":"json"
     },{
+        "title":"ヤマザキYショップMG",
+        "source":"./source/MG",
+        "mode":"json"
+    },{
         "display":"menu",
         "contents":["theme","twitter","hatenabookmark","pocket"]
     }
