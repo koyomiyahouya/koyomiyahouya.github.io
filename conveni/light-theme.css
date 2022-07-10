@@ -1,8 +1,4 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
-@font-face{
-  font-family: 'SAOUI-Regular';
-      src: url('../SAOUI-Regular.woff') format('woff');
-}
 html{
     padding: 0px;
     margin: 0px;
@@ -11,7 +7,7 @@ body{
     padding: 0px;
     margin: 0px;
     background-color: gainsboro;
-    font-family: 'SAOUI-Regular', 'Noto Sans JP', sans-serif;
+    font-family: 'Helvetica', 'Noto Sans JP', sans-serif;
 }
 .highlight{
     background-color:yellow;
