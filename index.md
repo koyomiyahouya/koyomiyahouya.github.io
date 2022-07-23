@@ -5,7 +5,7 @@ title: Koyomiya5438 Homepage
 # サブ（運営）ページ
 * [マイナーコンビニの店舗一覧](/conveni)
 * [Koyomiya Docs](/docs)
-* [テータ央想政府](https://the-ta.f5.si/)
+* [テータ央想政府](https://theta.koyomi-ya.net)
 
 # 外部リンク
 ## Wiki
