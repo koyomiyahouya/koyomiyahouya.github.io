@@ -7,7 +7,7 @@ body{
     padding: 0px;
     margin: 0px;
     background-color: #333333;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Helvetica', 'Noto Sans JP', sans-serif;
 }
 .highlight{
     background-color:yellow;
