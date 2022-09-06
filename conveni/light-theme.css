@@ -1,4 +1,7 @@
-@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@font-face{
+  font-family: 'kokug';
+  src: url('/font_1_kokugl_1.15_rls.woff') format('woff');
+}
 html{
     padding: 0px;
     margin: 0px;
@@ -7,7 +10,7 @@ body{
     padding: 0px;
     margin: 0px;
     background-color: gainsboro;
-    font-family: 'Helvetica', 'Noto Sans JP', sans-serif;
+    font-family: 'Helvetica', 'kokug', sans-serif;
 }
 .highlight{
     background-color:yellow;
