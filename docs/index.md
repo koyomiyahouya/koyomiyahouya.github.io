@@ -4,17 +4,8 @@ title: Koyomiya Docs
 ---
 
 # Koyomiya Docs
-## 作成物
 
-<ul>
-  {% for artifact in site.data.artifacts %}
-    <li>
-      <a href="{{ artifact.repository }}">{{ artifact.name }}</a>
-    </li>
-  {% endfor %}
-</ul>
-
-## 最近の活動
+### 最新記事
 
 <ul>
   {% for post in site.posts limit:10 %}
@@ -24,7 +15,7 @@ title: Koyomiya Docs
 </ul>
 [もっとみる](allposts)
 
-## タグで検索
+### タグで検索
 
 <div>
   {% for page in site.html_pages %}
