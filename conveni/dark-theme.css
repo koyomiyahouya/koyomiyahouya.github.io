@@ -1,6 +1,6 @@
 @font-face{
-  font-family: 'highway';
-  src: url('/GDhwGoJA-OTF112b2.woff') format('woff');
+  font-family: 'kikai';
+  src: url('/KikaiChokokuJIS-Md.woff') format('woff');
 }
 html{
     padding: 0px;
@@ -10,7 +10,7 @@ body{
     padding: 0px;
     margin: 0px;
     background-color: #333333;
-    font-family: 'Helvetica', 'highway', sans-serif;
+    font-family: 'Helvetica', 'kikai', sans-serif;
 }
 .highlight{
     background-color:yellow;
