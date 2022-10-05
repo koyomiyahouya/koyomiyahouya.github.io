@@ -2,6 +2,7 @@
   font-family: 'kikai';
   src: url('/KikaiChokokuJIS-Md.woff') format('woff');
 }
+@import url(https://use.typekit.net/phn7ysn.css);
 html{
     padding: 0px;
     margin: 0px;
