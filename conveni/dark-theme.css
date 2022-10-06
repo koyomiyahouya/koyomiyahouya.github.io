@@ -1,6 +1,7 @@
 @font-face{
   font-family: 'kikai';
   src: url('/KikaiChokokuJIS-Md.woff') format('woff');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 }
 html{
     padding: 0px;
@@ -10,7 +11,7 @@ body{
     padding: 0px;
     margin: 0px;
     background-color: #333333;
-    font-family: 'Helvetica', 'kikai', sans-serif;
+    font-family: 'Oswald', 'kikai', sans-serif;
 }
 .highlight{
     background-color:yellow;
