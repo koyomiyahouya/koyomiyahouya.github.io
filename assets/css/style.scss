@@ -1,17 +1,12 @@
 ---
 ---
-@font-face{
-  font-family: 'CJK';
-  src: url('/NotoSansCJKjp-Regular.woff') format('woff');
- @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap'); 
-@import "{{ site.theme }}";
+ @import "{{ site.theme }}";
 :focus {
   outline: none;
 }
 body {
   overflow-wrap: break-word;
   overflow-y: scroll;
-  font-family: 'Oswald', 'CJK', sans-serif;
 }
 code {
   overflow-wrap: normal;
