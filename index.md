@@ -5,7 +5,7 @@ title: Koyomiya5438 Homepage
 # サブ（運営）ページ
 * [マイナーコンビニの店舗一覧](/conveni)
 * [Koyomiya Docs](/docs)
-* [テータ央想政府](https://theta.koymi.net)
+* [テータ央想政府](https://the.koymi.net)
 
 # 外部リンク
 ## Wiki
@@ -19,7 +19,7 @@ title: Koyomiya5438 Homepage
 * [Zenn](https://zenn.dev/koyomiya)
 * [Mastodon](https://fedibird.com/@koyomiya)
 * [Reddit](https://www.reddit.com/user/koyomiya)
-* [YouTube](https://www.youtube.com/channel/UCq_Wv2FeigV5ak0T97pyyxA)
+* [YouTube](https://www.youtube.com/@Koyomiya5438)
 * [Fedimovie](https://fedimovie.com/a/koyomiya/video-channels)
 
 ## その他
