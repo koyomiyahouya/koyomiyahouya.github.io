@@ -2,7 +2,7 @@
   font-family: 'kikai';
   src: url('/KikaiChokokuJIS-Md.woff') format('woff');
 }
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
 
 html{
     padding: 0px;
@@ -12,7 +12,7 @@ body{
     padding: 0px;
     margin: 0px;
     background-color: gainsboro;
-    font-family: 'Oswald', 'kikai', sans-serif;
+    font-family: 'Didact Gothic', 'kikai', sans-serif;
 }
 .highlight{
     background-color:yellow;
