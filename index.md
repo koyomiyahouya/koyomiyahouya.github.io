@@ -16,7 +16,7 @@ title: Koyomiya5438 Homepage
 ## SNS等
 * [Twiter](https://twitter.com/koyomiyahouya)
 * [Mastodon](https://fedibird.com/@koyomiya)
-* [Threads] (https://www.threads.net/@koyomiya5438)
+* [Threads](https://www.threads.net/@koyomiya5438)
 * [Qiita](https://qiita.com/Koyomiya)
 * [Zenn](https://zenn.dev/koyomiya)
 * [Reddit](https://www.reddit.com/user/koyomiya)
