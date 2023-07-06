@@ -15,15 +15,14 @@ title: Koyomiya5438 Homepage
 
 ## SNS等
 * [Twiter](https://twitter.com/koyomiyahouya)
+* [Mastodon](https://fedibird.com/@koyomiya)
+* [Threads] (https://www.threads.net/@koyomiya5438)
 * [Qiita](https://qiita.com/Koyomiya)
 * [Zenn](https://zenn.dev/koyomiya)
-* [Mastodon](https://fedibird.com/@koyomiya)
 * [Reddit](https://www.reddit.com/user/koyomiya)
 * [YouTube](https://www.youtube.com/@Koyomiya5438)
 * [Fedimovie](https://fedimovie.com/a/koyomiya/video-channels)
 
 ## その他
-* [進捗ノート](https://shinchoku.net/users/koyomiyahouya)
-* [drip.ink](https://drip.ink/users/koyomiya)
 * [デライト](https://dlt.kitetu.com/KNo.9-547E)
 * [Pastebin.com](https://pastebin.com/u/Koyomiya)
