@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Koyomiya5438 Homepage
+title: Koyomiya Homepage
 ---
 # サブ（運営）ページ
 * [マイナーコンビニの店舗一覧](/conveni)
