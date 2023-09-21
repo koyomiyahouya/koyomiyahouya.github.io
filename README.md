@@ -1,2 +1,2 @@
-# Koyomiya5438 Homepage
+# Koyomiya Homepage
 コヨミヤのホームページです。
