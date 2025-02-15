@@ -47,8 +47,8 @@ p img {
 }
 #twitter_banner {
   @extend %banner;
-  background-image: url(../images/logo-black.png);
-  background-color:white;
+  background-image: url(../images/logo-white.png);
+  background-color:black;
 }
 #wikipedia_banner {
   @extend %banner;
