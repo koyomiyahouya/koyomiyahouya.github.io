@@ -13,7 +13,7 @@ title: Koyomiya Homepage
 * [Enpedia](https://enpedia.rxy.jp/wiki/利用者:コヨミヤ)
 
 ## SNS等
-* [Email](mailto:info@koymi.net)
+* Email:info@koymi.net
 * [X (旧Twiter)](https://twitter.com/koyomiyahouya)
 * [Bluesky](https://bsky.app/profile/543.bsky.social)
 * [Mastodon](https://fedibird.com/@koyomiya)
