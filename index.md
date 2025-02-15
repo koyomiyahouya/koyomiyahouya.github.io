@@ -2,7 +2,7 @@
 layout: default
 title: Koyomiya Homepage
 ---
-# サブ（運営）ページ
+# サブページ
 * [マイナーコンビニの店舗一覧](/conveni)
 * [Koyomiya Docs](/docs)
 
@@ -13,9 +13,10 @@ title: Koyomiya Homepage
 * [Enpedia](https://enpedia.rxy.jp/wiki/利用者:コヨミヤ)
 
 ## SNS等
-* [Twiter](https://twitter.com/koyomiyahouya)
+* [Email](mailto:info@koymi.net)
+* [X (旧Twiter)](https://twitter.com/koyomiyahouya)
+* [Bluesky](https://bsky.app/profile/543.bsky.social)
 * [Mastodon](https://fedibird.com/@koyomiya)
-* [Threads](https://www.threads.net/@koyomiya5438)
 * [Qiita](https://qiita.com/Koyomiya)
 * [Zenn](https://zenn.dev/koyomiya)
 * [Reddit](https://www.reddit.com/user/koyomiya)
@@ -25,3 +26,4 @@ title: Koyomiya Homepage
 ## その他
 * [デライト](https://dlt.kitetu.com/KNo.9-547E)
 * [Pastebin.com](https://pastebin.com/u/Koyomiya)
+* [Carrd](https://koyomiya.carrd.co/)
