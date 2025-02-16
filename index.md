@@ -17,8 +17,8 @@ title: Koyomiya Homepage
 * [X (旧Twiter)](https://twitter.com/koyomiyahouya)
 * [Bluesky](https://bsky.app/profile/543.bsky.social)
 * [note](https://note.com/koymi)
-* [Mastodon](https://fedibird.com/@koyomiya)
 ### ほとんど動かしていないもの
+* [Mastodon](https://fedibird.com/@koyomiya)
 * [Qiita](https://qiita.com/Koyomiya)
 * [Zenn](https://zenn.dev/koyomiya)
 * [Reddit](https://www.reddit.com/user/koyomiya)
