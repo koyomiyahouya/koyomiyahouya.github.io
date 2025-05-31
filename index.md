@@ -21,12 +21,12 @@ Age: 17
 * [Miraheze](https://meta.miraheze.org/wiki/User:Koyomiya5438)
 * [Enpedia](https://enpedia.rxy.jp/wiki/利用者:コヨミヤ)
 
-## SNSなど
+## SNS類
 * Email:info@koymi.net
 * [X (旧Twiter)](https://twitter.com/koyomiyahouya)
 * [Bluesky](https://bsky.app/profile/543.bsky.social)
 * [note](https://note.com/koymi)
-### ほとんど動かしていないもの
+### 非活発
 * [Mastodon](https://fedibird.com/@koyomiya)
 * [Qiita](https://qiita.com/Koyomiya)
 * [Zenn](https://zenn.dev/koyomiya)
@@ -35,6 +35,6 @@ Age: 17
 * [Fedimovie](https://fedimovie.com/a/koyomiya/video-channels)
 
 ## その他
+* [Carrd](https://koyomiya.carrd.co/)
 * [デライト](https://dlt.kitetu.com/KNo.9-547E)
 * [Pastebin.com](https://pastebin.com/u/Koyomiya)
-* [Carrd](https://koyomiya.carrd.co/)
