@@ -2,6 +2,9 @@
 layout: default
 title: Koyomiya Homepage
 ---
+# おしらせ
+* このサイトは旧サイトです。現在は新サイト（[koymi.net](https://koymi.net/)）に移行しています。
+
 # About
 Name: コヨミヤ（Koyomiya,暦谷）<br>
 Age: 17
